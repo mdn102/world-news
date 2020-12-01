@@ -5,7 +5,7 @@ An app aggregating news in real time, built with NextJS.
 
 ### Setup
 
-1. You need an API key for the app to work. Get key at [here](https://newsapi.org) 
+1. You need an API key for the app works. Get key at [here.](https://newsapi.org) 
 
 2. Create and store API key inside .env file  in the root directory : 
    
