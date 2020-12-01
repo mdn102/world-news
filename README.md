@@ -1,7 +1,7 @@
 # [World News]()
 An app aggregating news in real time, built with NextJS.
 
-## ![screenshot]()
+## ![screenshot](https://res.cloudinary.com/djhte2ard/image/upload/v1606806410/world-news_rssb7s.png)
 
 ### Setup
 
