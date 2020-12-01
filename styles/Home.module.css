@@ -1,0 +1,167 @@
+
+/* Custom Styles */
+.title {
+    font-family:Cinzel Decorative, cursive;
+    margin-top:0;
+}
+
+.logoImg
+{   
+    height:40px;
+    width:108px;
+    background-image:url(/logo.png);
+    background-position:center ;
+    background-size: contain;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    padding: 4rem 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: flex;
+    padding: 0 2rem;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+
+  .headingGrid {
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-items: center;
+    margin-top: 0.5rem;
+  }
+  
+  .headingCard {
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+  }
+
+  .card {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    max-width:90vw;
+    margin: 1rem;
+    flex-basis: 95%;
+    overflow:hidden;
+    padding: 1.5rem 2rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .card h3 {
+    font-size: 0.95rem;
+  }
+  
+  .card p {
+
+    font-size: 0.95rem;
+    line-height: 1.30;
+  }
+  
+  
+.footer {
+    height: 100px;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .footer p {
+    font-size:0.8rem;
+    line-height: 0.9rem;
+  }
+  
+  .footer img {
+    margin-left: 0.5rem;
+  }
+
+  @media (min-width:300px){
+
+    
+    .footer p {
+        font-size:0.85rem;
+        line-height: 0.95rem;
+      }
+    
+    
+  }
+  
+  @media (min-width:400px) {
+    .logoImg
+    {   height:50px;
+        width:120px;
+    }
+    
+    .card h3 {
+        font-size: 1rem;
+      }
+      
+      .card p {
+    
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    
+    .footer p {
+        font-size:1rem;
+        line-height: 1rem;
+      }
+    
+    
+  }
+
+    
+    @media (min-width:800px){
+  
+      .grid {
+          flex-direction:row;
+          flex-wrap: wrap;
+          max-width:95%
+      }
+      .card {
+          flex-basis: 40%;
+          height:500px;
+          overflow:hidden;
+                }
+  
+      .card h3 {
+          font-size: 1rem;
+        }
+        
+        .card p {
+          margin: 0;
+          font-size: 1rem;
+          line-height: 1.5;
+        }
+      
+  }
