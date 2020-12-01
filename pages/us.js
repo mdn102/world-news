@@ -15,7 +15,7 @@ function Home({ errorCode, data }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Welcome! World News</title>
+        <title>US News</title>
         <link rel="icon" href="/favicon_new.ico" />
       </Head>
       <main className={styles.main}>

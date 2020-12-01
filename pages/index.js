@@ -14,7 +14,7 @@ function Home({ errorCode, data }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>World News</title>
+        <title>UK News</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
